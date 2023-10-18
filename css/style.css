@@ -5,7 +5,7 @@ main {
     flex-direction: column;
 
     height: 100%;
-    width: 100%;
+    width: 153.6rem;
     padding: 0 16.8rem;
 }
 
@@ -18,6 +18,10 @@ main div.filler-div {
     font-weight: bold;
 
     flex-grow: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 section#join-facebook-groups-section {
@@ -125,9 +129,9 @@ button#join-facebook-groups-section-carousel-section-right-slider-btn {
 }
 
 button#join-facebook-groups-section-carousel-section-left-slider-btn {
-    left: 17rem;
+    left: -3.2rem;
 }
 
 button#join-facebook-groups-section-carousel-section-right-slider-btn {
-    right: 17rem;
+    right: -3.2rem;
 }
