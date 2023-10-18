@@ -26,7 +26,8 @@ section#join-facebook-groups-section-carousel-section ul li {
     flex-direction: column;
 
 
-    border-radius: 1.2rem
+    border-radius: 1.2rem;
+    box-shadow: 0px 2px 6px -4px rgba(0, 11, 67, 0.10);
 }
 
 section#join-facebook-groups-section-carousel-section ul li article {
@@ -119,4 +120,65 @@ section#join-facebook-groups-section-carousel-section ul li article > div p {
     letter-spacing: -.038rem;
 
     padding-bottom: 2.8rem;
+}
+
+section#join-facebook-groups-section-carousel-section ul li article > div button {
+    width: 100%;
+
+    padding: 1.5rem 4rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    border-radius: .6rem;
+    border: .1rem solid #FFF;
+    background: #1254FF;
+    box-shadow: 0 .4rem .8rem 0 rgba(0, 0, 0, 0.05);
+}
+
+
+section#join-facebook-groups-section-carousel-section ul li article > div button.focused {
+    animation: raise 0.2s ease forwards;
+}
+
+@keyframes raise {
+    0% {
+        transform: translate(0, 0);
+        filter: brightness(1);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    100% {
+        transform: translateY(-.1rem);
+        filter: brightness(1.40);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+    }
+}
+
+section#join-facebook-groups-section-carousel-section ul li article > div button.activated {
+    animation: sink 0.05s ease forwards;
+}
+
+@keyframes sink {
+    0% {
+        transform: translateY(-.1rem);
+        filter: brightness(1.40);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+    }
+    100% {
+        transform: translateY(.2rem);
+        filter: brightness(.8);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.0);
+    }
+}
+
+section#join-facebook-groups-section-carousel-section ul li article > div button span {
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.6rem;
+    letter-spacing: -.015rem;
+    color: #FFFFFF
 }

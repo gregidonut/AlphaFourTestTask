@@ -1,4 +1,5 @@
 import CarouselData from "./carouselData.js";
+import CardBtnAnimationLogic from "./cardBtnAnimationLogic.js";
 
 const carouselSectionList = document.querySelector(
     "section#join-facebook-groups-section-carousel-section ul"
@@ -11,7 +12,7 @@ CarouselData.forEach(function (cardData) {
     <figure>
         <img src="${cardData.imagePath}" alt="${cardData.imgAltText}"/>
         <figcaption>
-            <img src="assets/Group.svg" alt="Facebook logo" class="fb-logo">
+            <img src="assets/fb_icon_white_no_bg.svg" alt="Facebook logo" class="fb-logo">
             <div>
                 <h3>${cardData.header}</h3>
                 <p>${cardData.members} members</p>
@@ -22,11 +23,14 @@ CarouselData.forEach(function (cardData) {
         <p>
             ${cardData.caption}
         </p>
-        <button>${cardData.btnText}</button>
+        <button class="card-btn">
+            <img src="assets/fb_icon_transparent_white_bg.svg" alt="Facebook logo">
+            <span>${cardData.btnText}</span>
+        </button>
     </div>
 </article>
 `
-
-
     carouselSectionList.appendChild(baseListItem)
 })
+
+CardBtnAnimationLogic()
