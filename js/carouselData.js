@@ -1,6 +1,6 @@
 const CarouselData = [
     {
-        "imagePath": "./assets/card01.png",
+        "imagePath": "assets/nothing_held_back.png",
         "imgAltText": "card01",
         "header": "NHB Facebook Group",
         "members": 21_349,
@@ -9,7 +9,7 @@ const CarouselData = [
         "btnText": "Join Facebook Group",
     },
     {
-        "imagePath": "./assets/card01.png",
+        "imagePath": "assets/job_board.png",
         "imgAltText": "card01",
         "header": "NHB Job Board",
         "members": 21_349,
@@ -18,7 +18,7 @@ const CarouselData = [
         "btnText": "Join Job Board",
     },
     {
-        "imagePath": "./assets/card01.png",
+        "imagePath": "assets/jv.png",
         "imgAltText": "card01",
         "header": "NHB Join Venture Network",
         "members": 21_349,
