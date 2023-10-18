@@ -22,6 +22,7 @@ main div.filler-div {
 
 section#join-facebook-groups-section {
     width: 100%;
+    min-height: 73rem;
     height: 73rem;
 
     display: flex;
@@ -32,7 +33,7 @@ section#join-facebook-groups-section {
     position: relative;
 }
 
-section#join-facebook-groups-section span#join-facebook-groups-section-dev-label{
+section#join-facebook-groups-section span#join-facebook-groups-section-dev-label {
     position: absolute;
     top: -1.2rem;
     left: 0;
@@ -48,8 +49,8 @@ section#join-facebook-groups-section span#join-facebook-groups-section-dev-label
     z-index: -1;
 }
 
-section#join-facebook-groups-section section.header-section{
-    background: aliceblue;
+section#join-facebook-groups-section header {
+    background: #F6F6F6;
     height: 16.2rem;
     width: 100%;
 
@@ -57,30 +58,48 @@ section#join-facebook-groups-section section.header-section{
     align-items: start;
     justify-content: center;
     flex-direction: column;
+    gap: 2.4rem;
+
+    padding: 2rem 0;
 }
 
-section#join-facebook-groups-section section.header-section h2{
+section#join-facebook-groups-section header h2 {
+    width: 100%;
+
     font-size: 4rem;
 
     font-style: normal;
     font-weight: 500;
-    line-height: 48px; /* 120% */
+    line-height: 4.8rem; /* 120% */
     letter-spacing: -0.8px;
+
+    color: #010021;
 }
-section#join-facebook-groups-section section.header-section p{
+
+section#join-facebook-groups-section header p {
+    width: 100%;
+
     font-size: 1.8rem;
 
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 2.4rem;
+
+    color: #293356;
+
+    padding-bottom: 2.4rem;
 }
 
-section#join-facebook-groups-section section#join-facebook-groups-section-carousel-section{
+section#join-facebook-groups-section section#join-facebook-groups-section-carousel-section {
+    min-height: 57rem;
+    height: 57rem;
     width: 100%;
     flex-grow: 1;
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
+
+    padding: 2rem 0;
 }

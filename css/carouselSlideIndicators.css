@@ -1,6 +1,10 @@
 div#join-facebook-groups-section-carousel-slide-indicators {
     width: 100%;
-    padding-top: 3.2rem;
+    height: 2.4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 div#join-facebook-groups-section-carousel-slide-indicators ul {
