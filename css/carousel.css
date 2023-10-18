@@ -107,4 +107,16 @@ section#join-facebook-groups-section-carousel-section ul li article figure figca
 
 section#join-facebook-groups-section-carousel-section ul li article > div {
     flex-grow: 1;
+
+    padding: 1.6rem 2.2rem 0;
+}
+
+section#join-facebook-groups-section-carousel-section ul li article > div p {
+    font-size: 1.9rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.4rem;
+    letter-spacing: -.038rem;
+
+    padding-bottom: 2.8rem;
 }
