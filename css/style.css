@@ -103,3 +103,31 @@ section#join-facebook-groups-section section#join-facebook-groups-section-carous
 
     padding: 2rem 0;
 }
+
+
+button#join-facebook-groups-section-carousel-section-left-slider-btn,
+button#join-facebook-groups-section-carousel-section-right-slider-btn {
+    position: absolute;
+    bottom: 38%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 6.4rem;
+    width: 6.4rem;
+
+    border-radius: 51%;
+    border: none;
+
+    background: #FFFFFF;
+    box-shadow: 0 .4rem .6rem rgba(0, 0, 0, 0.25);
+}
+
+button#join-facebook-groups-section-carousel-section-left-slider-btn {
+    left: 17rem;
+}
+
+button#join-facebook-groups-section-carousel-section-right-slider-btn {
+    right: 17rem;
+}

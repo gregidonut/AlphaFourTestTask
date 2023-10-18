@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="17"
+   height="17"
+   viewBox="0 0 17 17"
+   fill="none"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="slider_btn_right.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <g
+     id="Group"
+     transform="translate(2.8520341,-0.7756275)">
+    <path
+       id="Vector"
+       d="m 6.29371,10.0446 c 0.42467,-0.4247 0.42467,-1.11323 0,-1.53791 L 1.23159,3.44457 c -0.424677,-0.42467 -0.424678,-1.1132 0,-1.53788 L 1.57904,1.55924 c 0.42467,-0.42468 1.11321,-0.42468 1.53788,0 l 6.94748,6.94745 c 0.4246,0.42467 0.4246,1.11321 0,1.53791 L 3.11692,16.992 c -0.42467,0.4247 -1.11321,0.4247 -1.53788,0 L 1.23159,16.6446 c -0.424677,-0.4247 -0.424678,-1.1132 0,-1.5379 z"
+       fill="#1254ff" />
+  </g>
+</svg>
