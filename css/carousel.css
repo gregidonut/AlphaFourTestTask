@@ -5,15 +5,16 @@ section#join-facebook-groups-section-carousel-section ul {
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     flex-direction: row;
+
     gap: 1.8rem;
 
     overflow-x: auto;
 }
 
 section#join-facebook-groups-section-carousel-section ul li{
-    background: pink;
+    background: #FFFFFF;
 
     min-width: 38rem;
     width: 38rem;
@@ -23,4 +24,9 @@ section#join-facebook-groups-section-carousel-section ul li{
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
+
+    padding: 1rem;
+    padding-bottom: 4rem;
+
+    border-radius: 1.2rem
 }
