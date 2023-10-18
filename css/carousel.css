@@ -1,0 +1,26 @@
+section#join-facebook-groups-section-carousel-section ul {
+    list-style: none;
+
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1.8rem;
+
+    overflow-x: auto;
+}
+
+section#join-facebook-groups-section-carousel-section ul li{
+    background: pink;
+
+    min-width: 38rem;
+    width: 38rem;
+    height: 47rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}

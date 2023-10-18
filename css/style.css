@@ -4,6 +4,7 @@ main {
     justify-content: center;
     flex-direction: column;
 
+    height: 100%;
     width: 100%;
     padding: 0 16.8rem;
 }
@@ -15,6 +16,8 @@ main div.filler-div {
 
     text-align: center;
     font-weight: bold;
+
+    flex-grow: 1;
 }
 
 section#join-facebook-groups-section {
@@ -72,7 +75,7 @@ section#join-facebook-groups-section section.header-section p{
     line-height: 24px;
 }
 
-section#join-facebook-groups-section section.carousel{
+section#join-facebook-groups-section section#join-facebook-groups-section-carousel-section{
     background: lightyellow;
     width: 100%;
     flex-grow: 1;
