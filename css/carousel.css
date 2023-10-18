@@ -137,6 +137,8 @@ section#join-facebook-groups-section-carousel-section > ul li article > div butt
 }
 
 
+button#join-facebook-groups-section-carousel-section-left-slider-btn.focused,
+button#join-facebook-groups-section-carousel-section-right-slider-btn.focused,
 section#join-facebook-groups-section-carousel-section > ul li article > div button.focused {
     animation: raise 0.2s ease forwards;
 }
@@ -154,6 +156,8 @@ section#join-facebook-groups-section-carousel-section > ul li article > div butt
     }
 }
 
+button#join-facebook-groups-section-carousel-section-left-slider-btn.activated,
+button#join-facebook-groups-section-carousel-section-right-slider-btn.activated,
 section#join-facebook-groups-section-carousel-section > ul li article > div button.activated {
     animation: sink 0.05s ease forwards;
 }
