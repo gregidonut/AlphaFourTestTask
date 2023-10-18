@@ -1,11 +1,12 @@
-import CarouselData from "./carouselData.js";
+import CAROUSEL_DATA from "./carouselData.js";
 import CardBtnAnimationLogic from "./cardBtnAnimationLogic.js";
+import CarouselSlidIndicators from "./carouselSlideIndicators.js";
 
 const carouselSectionList = document.querySelector(
     "section#join-facebook-groups-section-carousel-section ul"
 )
 
-CarouselData.forEach(function (cardData) {
+CAROUSEL_DATA.forEach(function (cardData) {
     const baseListItem = document.createElement("li")
     baseListItem.innerHTML = `
 <article>
@@ -34,3 +35,4 @@ CarouselData.forEach(function (cardData) {
 })
 
 CardBtnAnimationLogic()
+CarouselSlidIndicators()

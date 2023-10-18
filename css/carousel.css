@@ -1,19 +1,17 @@
-section#join-facebook-groups-section-carousel-section ul {
+section#join-facebook-groups-section-carousel-section > ul {
     list-style: none;
 
     width: 100%;
 
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     flex-direction: row;
 
     gap: 1.8rem;
-
-    overflow-x: auto;
 }
 
-section#join-facebook-groups-section-carousel-section ul li {
+section#join-facebook-groups-section-carousel-section > ul li {
     background: #FFFFFF;
 
     min-width: 38rem;
@@ -30,7 +28,7 @@ section#join-facebook-groups-section-carousel-section ul li {
     box-shadow: 0px 2px 6px -4px rgba(0, 11, 67, 0.10);
 }
 
-section#join-facebook-groups-section-carousel-section ul li article {
+section#join-facebook-groups-section-carousel-section > ul li article {
     width: 100%;
     height: 100%;
 
@@ -42,7 +40,7 @@ section#join-facebook-groups-section-carousel-section ul li article {
     padding: 1rem 1rem 4rem;
 }
 
-section#join-facebook-groups-section-carousel-section ul li article figure {
+section#join-facebook-groups-section-carousel-section > ul li article figure {
     width: 100%;
 
     display: flex;
@@ -51,7 +49,7 @@ section#join-facebook-groups-section-carousel-section ul li article figure {
     flex-direction: column;
 }
 
-section#join-facebook-groups-section-carousel-section ul li article figure figcaption {
+section#join-facebook-groups-section-carousel-section > ul li article figure figcaption {
     width: 100%;
 
     display: flex;
@@ -62,7 +60,7 @@ section#join-facebook-groups-section-carousel-section ul li article figure figca
     padding: 1.6rem 2.2rem;
 }
 
-section#join-facebook-groups-section-carousel-section ul li article figure figcaption img.fb-logo {
+section#join-facebook-groups-section-carousel-section > ul li article figure figcaption img.fb-logo {
     background: #1254FF;
 
     width: 4rem;
@@ -75,7 +73,7 @@ section#join-facebook-groups-section-carousel-section ul li article figure figca
     align-items: center;
 }
 
-section#join-facebook-groups-section-carousel-section ul li article figure figcaption > div {
+section#join-facebook-groups-section-carousel-section > ul li article figure figcaption > div {
     height: 100%;
     width: 100%;
     padding-left: 1.2rem;
@@ -86,7 +84,7 @@ section#join-facebook-groups-section-carousel-section ul li article figure figca
     flex-direction: column;
 }
 
-section#join-facebook-groups-section-carousel-section ul li article figure figcaption > div h3 {
+section#join-facebook-groups-section-carousel-section > ul li article figure figcaption > div h3 {
     width: 100%;
 
     font-size: 1.6rem;
@@ -95,7 +93,7 @@ section#join-facebook-groups-section-carousel-section ul li article figure figca
     line-height: 2rem;
 }
 
-section#join-facebook-groups-section-carousel-section ul li article figure figcaption > div p {
+section#join-facebook-groups-section-carousel-section > ul li article figure figcaption > div p {
     width: 100%;
 
     font-size: 1.2rem;
@@ -106,13 +104,13 @@ section#join-facebook-groups-section-carousel-section ul li article figure figca
     color: rgba(41, 51, 86, 0.8);
 }
 
-section#join-facebook-groups-section-carousel-section ul li article > div {
+section#join-facebook-groups-section-carousel-section > ul li article > div {
     flex-grow: 1;
 
     padding: 1.6rem 2.2rem 0;
 }
 
-section#join-facebook-groups-section-carousel-section ul li article > div p {
+section#join-facebook-groups-section-carousel-section > ul li article > div p {
     font-size: 1.9rem;
     font-style: normal;
     font-weight: 500;
@@ -122,7 +120,7 @@ section#join-facebook-groups-section-carousel-section ul li article > div p {
     padding-bottom: 2.8rem;
 }
 
-section#join-facebook-groups-section-carousel-section ul li article > div button {
+section#join-facebook-groups-section-carousel-section > ul li article > div button {
     width: 100%;
 
     padding: 1.5rem 4rem;
@@ -139,7 +137,7 @@ section#join-facebook-groups-section-carousel-section ul li article > div button
 }
 
 
-section#join-facebook-groups-section-carousel-section ul li article > div button.focused {
+section#join-facebook-groups-section-carousel-section > ul li article > div button.focused {
     animation: raise 0.2s ease forwards;
 }
 
@@ -156,7 +154,7 @@ section#join-facebook-groups-section-carousel-section ul li article > div button
     }
 }
 
-section#join-facebook-groups-section-carousel-section ul li article > div button.activated {
+section#join-facebook-groups-section-carousel-section > ul li article > div button.activated {
     animation: sink 0.05s ease forwards;
 }
 
@@ -173,7 +171,7 @@ section#join-facebook-groups-section-carousel-section ul li article > div button
     }
 }
 
-section#join-facebook-groups-section-carousel-section ul li article > div button span {
+section#join-facebook-groups-section-carousel-section > ul li article > div button span {
     text-align: center;
     font-size: 1.5rem;
     font-style: normal;

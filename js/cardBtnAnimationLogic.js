@@ -36,6 +36,5 @@ export default function CardBtnAnimationLogic() {
                 btn.classList.remove("activated");
             }
         });
-
     })
 }
