@@ -11,7 +11,9 @@ const rightSlideBtn = document.querySelector(
     "button#join-facebook-groups-section-carousel-section-right-slider-btn"
 )
 
-const listOfSlides = GenCarouselSlides(3)
+let maxCardsPerSlide = 2;
+
+const listOfSlides = GenCarouselSlides(maxCardsPerSlide)
 const listOfCarouselSlideIndicators = document.querySelectorAll(
     "div#join-facebook-groups-section-carousel-slide-indicators ul li"
 )
