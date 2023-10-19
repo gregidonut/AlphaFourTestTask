@@ -39,10 +39,12 @@ export default function RenderCarousel(maxCardsPerSlide) {
         </figure>
         <div>
           <p>${cardData.caption}</p>
-          <button class="card-btn">
-            <img src="assets/fb_icon_transparent_white_bg.svg" alt="Facebook logo">
-            <span>${cardData.btnText}</span>
-          </button>
+          <a href="${cardData.extLink}" target="_blank">
+              <button class="card-btn">
+                <img src="assets/fb_icon_transparent_white_bg.svg" alt="Facebook logo">
+                <span>${cardData.btnText}</span>
+              </button>
+          </a>
         </div>
       </article>
     `;

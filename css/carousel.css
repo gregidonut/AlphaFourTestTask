@@ -131,7 +131,15 @@ section#join-facebook-groups-section-carousel-section > ul li article > div p {
     flex-grow: 1;
 }
 
-section#join-facebook-groups-section-carousel-section > ul li article > div button {
+section#join-facebook-groups-section-carousel-section > ul li article > div a {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#join-facebook-groups-section-carousel-section > ul li article > div a button {
     width: 100%;
 
     padding: 1.5rem 4rem;
