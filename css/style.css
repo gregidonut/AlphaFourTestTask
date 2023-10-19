@@ -5,8 +5,17 @@ main {
     flex-direction: column;
 
     height: 100%;
-    width: 153.6rem;
-    padding: 0 16.8rem;
+    width: 100%;
+    /*width: 153.6rem;*/
+    /*padding: 0 16.8rem;*/
+    padding: 0 5rem;
+}
+
+@media screen and (min-width: 1300px) {
+    main {
+        width: 120rem;
+        padding: 0;
+    }
 }
 
 main div.filler-div {

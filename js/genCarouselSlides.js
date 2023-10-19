@@ -11,6 +11,7 @@ export default function GenCarouselSlides(maxCardsPerSlide) {
         "div#join-facebook-groups-section-carousel-slide-indicators ul"
     )
 
+    carouselSlideIndicatorList.innerText = ""
     for (let i = 0; i < slideList.length; i++) {
         const baseListItem = document.createElement("li")
         baseListItem.innerText = "⚪️"
