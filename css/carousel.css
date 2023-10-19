@@ -108,9 +108,17 @@ section#join-facebook-groups-section-carousel-section > ul li article > div {
     flex-grow: 1;
 
     padding: 1.6rem 2.2rem 0;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 section#join-facebook-groups-section-carousel-section > ul li article > div p {
+    width: 100%;
+
     font-size: 1.9rem;
     font-style: normal;
     font-weight: 500;
@@ -118,6 +126,8 @@ section#join-facebook-groups-section-carousel-section > ul li article > div p {
     letter-spacing: -.038rem;
 
     padding-bottom: 2.8rem;
+
+    flex-grow: 1;
 }
 
 section#join-facebook-groups-section-carousel-section > ul li article > div button {
