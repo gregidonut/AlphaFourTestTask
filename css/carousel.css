@@ -105,6 +105,7 @@ section#join-facebook-groups-section-carousel-section > ul li article figure fig
 }
 
 section#join-facebook-groups-section-carousel-section > ul li article > div {
+    width: 100%;
     flex-grow: 1;
 
     padding: 1.6rem 2.2rem 0;
