@@ -29,11 +29,11 @@ const CAROUSEL_DATA = [
     {
         "imagePath": "assets/jv.png",
         "imgAltText": "join venture",
-        "header": "Join us!!",
+        "header": "NHB Awesome Group",
         "members": 987,
-        "caption": "Never Settle. \n" +
-            "Work with the best.",
-        "btnText": "Join Integration Network",
+        "caption": "Never settle. \n" +
+            "Work with the elite.",
+        "btnText": "Join Elite Team",
     },
     {
         "imagePath": "assets/job_board.png",
@@ -67,15 +67,15 @@ const CAROUSEL_DATA = [
         "caption": "Are you a startup enthusiast? Join our startup hub to collaborate, innovate, and grow.",
         "btnText": "Join Startup Hub"
     },
-    // {
-    //     "imagePath": "assets/jv.png",
-    //     "imgAltText": "join venture",
-    //     "header": "NHB Join Venture Network",
-    //     "members": 349,
-    //     "caption": "More than a job board. Hire talent. Built a team. Find a job. Get a gig. \n" +
-    //         "Work with the best.",
-    //     "btnText": "Join Integration Network",
-    // },
+    {
+        "imagePath": "assets/jv.png",
+        "imgAltText": "join venture",
+        "header": "NHB Join Venture Network",
+        "members": 349,
+        "caption": "More than a job board. Hire talent. Built a team. Find a job. Get a gig. \n" +
+            "Work with the best.",
+        "btnText": "Join Integration Network",
+    },
 ]
 
 export default CAROUSEL_DATA;

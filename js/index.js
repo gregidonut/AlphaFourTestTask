@@ -12,6 +12,10 @@ const rightSlideBtn = document.querySelector(
 )
 
 const listOfSlides = GenCarouselSlides(3)
+const listOfCarouselSlideIndicators = document.querySelectorAll(
+    "div#join-facebook-groups-section-carousel-slide-indicators ul li"
+)
+console.log(listOfCarouselSlideIndicators)
 
 let slideIndex = 0;
 
@@ -44,6 +48,8 @@ function updateCarousel() {
     `;
         carouselSectionList.appendChild(baseListItem);
     });
+
+    listOfCarouselSlideIndicators[slideIndex].innerText = "🔵"
 }
 
 updateCarousel();
@@ -57,6 +63,10 @@ rightSlideBtn.addEventListener("click", () => {
     }
 
     rightSlideBtn.classList.remove("dead")
+    listOfCarouselSlideIndicators.forEach((listElem) => {
+        listElem.innerHTML = "⚪️"
+    })
+    listOfCarouselSlideIndicators[slideIndex].innerText = "🔵"
     updateCarousel();
 });
 
@@ -70,6 +80,10 @@ leftSlideBtn.addEventListener("click", () => {
     }
 
     leftSlideBtn.classList.remove("dead")
+    listOfCarouselSlideIndicators.forEach((listElem) => {
+        listElem.innerHTML = "⚪️"
+    })
+    listOfCarouselSlideIndicators[slideIndex].innerText = "🔵"
     updateCarousel();
 });
 
