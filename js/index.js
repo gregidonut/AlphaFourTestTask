@@ -49,6 +49,7 @@ function updateCarousel() {
     });
 
     listOfCarouselSlideIndicators[slideIndex].innerText = "🔵"
+    CardBtnAnimationLogic();
 }
 
 // {{ initial render
@@ -105,5 +106,3 @@ leftSlideBtn.addEventListener("click", () => {
     listOfCarouselSlideIndicators[slideIndex].innerText = "🔵"
     updateCarousel();
 });
-
-CardBtnAnimationLogic();
