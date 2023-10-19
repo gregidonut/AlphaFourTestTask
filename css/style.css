@@ -154,3 +154,11 @@ button#join-facebook-groups-section-carousel-section-right-slider-btn.alive svg 
 button#join-facebook-groups-section-carousel-section-left-slider-btn.alive svg g path {
     fill: #1254ff;
 }
+
+footer {
+    width: 100%;
+
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
