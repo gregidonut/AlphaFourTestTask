@@ -135,3 +135,13 @@ button#join-facebook-groups-section-carousel-section-left-slider-btn {
 button#join-facebook-groups-section-carousel-section-right-slider-btn {
     right: -3.2rem;
 }
+
+button#join-facebook-groups-section-carousel-section-right-slider-btn.dead svg g path,
+button#join-facebook-groups-section-carousel-section-left-slider-btn.dead svg g path {
+    fill: #b0b8d0;
+}
+
+button#join-facebook-groups-section-carousel-section-right-slider-btn.alive svg g path,
+button#join-facebook-groups-section-carousel-section-left-slider-btn.alive svg g path {
+    fill: #1254ff;
+}

@@ -15,7 +15,6 @@ const listOfSlides = GenCarouselSlides(3)
 const listOfCarouselSlideIndicators = document.querySelectorAll(
     "div#join-facebook-groups-section-carousel-slide-indicators ul li"
 )
-console.log(listOfCarouselSlideIndicators)
 
 let slideIndex = 0;
 
@@ -52,20 +51,33 @@ function updateCarousel() {
     listOfCarouselSlideIndicators[slideIndex].innerText = "🔵"
 }
 
+// {{ initial render
+leftSlideBtn.classList.add("dead")
+rightSlideBtn.classList.add("alive")
 updateCarousel();
+// }}
+
 rightSlideBtn.addEventListener("click", () => {
     slideIndex++;
 
-    if (slideIndex >= listOfSlides.length) {
-        slideIndex = listOfSlides.length - 1; // Wrap to the last slide
+    if (slideIndex >= listOfSlides.length - 1) {
+        slideIndex = listOfSlides.length - 1;
+        rightSlideBtn.classList.remove("alive")
         rightSlideBtn.classList.add("dead")
+
+        listOfCarouselSlideIndicators.forEach((listElem) => {
+            listElem.innerHTML = "⚪️"
+        })
+        updateCarousel();
         return
     }
 
-    rightSlideBtn.classList.remove("dead")
+    leftSlideBtn.classList.remove("dead")
+    leftSlideBtn.classList.add("alive")
     listOfCarouselSlideIndicators.forEach((listElem) => {
         listElem.innerHTML = "⚪️"
     })
+
     listOfCarouselSlideIndicators[slideIndex].innerText = "🔵"
     updateCarousel();
 });
@@ -73,13 +85,20 @@ rightSlideBtn.addEventListener("click", () => {
 leftSlideBtn.addEventListener("click", () => {
     slideIndex--;
 
-    if (slideIndex < 0) {
+    if (slideIndex < 1) {
         slideIndex = 0;
+        leftSlideBtn.classList.remove("alive")
         leftSlideBtn.classList.add("dead")
+
+        listOfCarouselSlideIndicators.forEach((listElem) => {
+            listElem.innerHTML = "⚪️"
+        })
+        updateCarousel();
         return
     }
 
-    leftSlideBtn.classList.remove("dead")
+    rightSlideBtn.classList.remove("dead")
+    rightSlideBtn.classList.add("alive")
     listOfCarouselSlideIndicators.forEach((listElem) => {
         listElem.innerHTML = "⚪️"
     })
@@ -87,4 +106,4 @@ leftSlideBtn.addEventListener("click", () => {
     updateCarousel();
 });
 
-CardBtnAnimationLogic()
+CardBtnAnimationLogic();
